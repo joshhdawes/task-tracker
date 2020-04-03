@@ -1,3 +1,4 @@
+#!/usr/bin/env python 
 """
 Simple command-line task tracking tool.
 
