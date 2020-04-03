@@ -28,6 +28,8 @@ Adding objects...
 
 ```python task_tracker.py add person-to-task```
 
+```python task_tracker.py add task-to-task```
+
 Editing objects...
 
 ```python task_tracker.py edit task```
@@ -41,3 +43,5 @@ Removing objects...
 ```python task_tracker.py rm person```
 
 ```python task_tracker.py rm person-from-task```
+
+```python task_tracker.py rm task-from-parent```
