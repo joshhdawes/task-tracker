@@ -11,16 +11,21 @@ Show the list of people
 Adding objects...
 
 ```python task_tracker.py add task```
+
 ```python task_tracker.py add person```
+
 ```python task_tracker.py add person-to-task```
 
 Editing objects...
 
 ```python task_tracker.py edit task```
+
 ```python task_tracker.py edit person```
 
 Removing objects...
 
 ```python task_tracker.py rm task```
-````python task_tracker.py rm person```
+
+```python task_tracker.py rm person```
+
 ```python task_tracker.py rm person-from-task```
