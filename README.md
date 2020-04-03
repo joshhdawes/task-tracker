@@ -1,5 +1,17 @@
 ## Simple task tracking for the command line in Python
 
+The base object is the `task`, of which a `person` can be a part.
+
+Each `task has a uniquely-identifying `label` and a not-necessarily-unique `description`.
+
+Each `task` can have a parent task which can be changed or removed (in which case it becomes top-level).
+
+Relationships between tasks and people are based on tasks' labels.
+
+You can use the commands below to construct, manipulate and display your tasks and the list of people who work on them.
+
+### Commands
+
 Show a tree of tasks
 
 ```python task_tracker.py show tasks```
