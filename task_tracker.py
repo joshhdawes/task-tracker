@@ -65,11 +65,13 @@ def print_help():
   """
   print("Please given an action to perform, and then an object to perform it on.")
   print("Options are:")
+  print("  ./task_tracker.py show tasks")
+  print("  ./task_tracker.py show people")
   print("  ./task_tracker.py add task")
   print("  ./task_tracker.py add person")
   print("  ./task_tracker.py add person-to-task")
-  print("  ./task_tracker.py edit task <label>")
-  print("  ./task_tracker.py edit person <label>")
+  print("  ./task_tracker.py edit task")
+  print("  ./task_tracker.py edit person")
   print("  ./task_tracker.py rm task")
   print("  ./task_tracker.py rm person")
   print("  ./task_tracker.py rm person-from-task")
@@ -339,5 +341,4 @@ if __name__ == "__main__":
     else:
       print_help()
   except:
-    traceback.print_exc()
     print_help()
