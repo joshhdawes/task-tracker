@@ -2,7 +2,7 @@
 
 The base object is the `task`, of which a `person` can be a part.
 
-Each `task has a uniquely-identifying `label` and a not-necessarily-unique `description`.
+Each `task` has a uniquely-identifying `label` and a not-necessarily-unique `description`.
 
 Each `task` can have a parent task which can be changed or removed (in which case it becomes top-level).
 
