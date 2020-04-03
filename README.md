@@ -1,13 +1,26 @@
 ## Simple task tracking for the command line in Python
 
-`python task_tracker.py show tasks` - show a tree of tasks
-`python task_tracker.py show people` - show the list of people
+Show a tree of tasks
 
-`python task_tracker.py add task` - add a new task, either under a projet or under a task
-`python task_tracker.py add person` - add a new person
-`python task_tracker.py add person-to-task` - associate a person with a task
-`python task_tracker.py edit task` - modify a task
-`python task_tracker.py edit person` - modify a person (name and associated tasks)
-`python task_tracker.py rm task` - remove a task and all contained tasks
-`python task_tracker.py rm person` - remove a person and all associations they have with tasks
-`python task_tracker.py rm person-from-task` - disassociate a person from a task
+```python task_tracker.py show tasks```
+
+Show the list of people
+
+```python task_tracker.py show people```
+
+Adding objects...
+
+```python task_tracker.py add task```
+```python task_tracker.py add person```
+```python task_tracker.py add person-to-task```
+
+Editing objects...
+
+```python task_tracker.py edit task```
+```python task_tracker.py edit person```
+
+Removing objects...
+
+```python task_tracker.py rm task```
+````python task_tracker.py rm person```
+```python task_tracker.py rm person-from-task```
